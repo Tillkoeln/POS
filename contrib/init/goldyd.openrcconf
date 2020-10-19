@@ -1,0 +1,26 @@
+# /etc/conf.d/erexd: config file for /etc/init.d/erexd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/erex/erex.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/erexd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/erexd.pid"
+
+# Where to write erexd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/erexd"
+
+# User and group to own erexd process
+#BITCOIND_USER="erex"
+#BITCOIND_GROUP="erex"
+
+# Path to erexd executable
+#BITCOIND_BIN="/usr/bin/erexd"
+
+# Nice value to run erexd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

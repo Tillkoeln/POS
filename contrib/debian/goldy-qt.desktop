@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=EREX
+Comment=EREX P2P Cryptocurrency
+Comment[fr]=EREX, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=EREX, eşten eşe kriptografik sanal para birimi
+Exec=erex-qt %u
+Terminal=false
+Type=Application
+Icon=erex128
+MimeType=x-scheme-handler/erex;
+Categories=Office;Finance;
